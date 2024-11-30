@@ -1,0 +1,231 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.background-container1 {
+    background-color: green;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.Link1A, .Link2A, .Link3A, .Link4A, .NameA, .Link5A, .Link6A{
+    position: absolute;
+    color: greenyellow;
+    text-decoration: none; 
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.Link6A{
+    color: yellow;
+    top: 15%;
+    left: 5%;
+    font-size: 2em;
+}
+.Link1A {
+    top: 30%;
+    left: 5%;
+}
+.Link2A {
+    top: 60%;
+    left: 5%;
+}
+.Link3A {
+    top: 45%;
+    left: 5%;
+}
+.Link4A{
+    top: 75%;
+    left: 5%;
+}
+.NameA{
+    top: 45%;
+    left: 35%;
+    font-size: 6em;
+    font-weight: bold;
+}
+.Link5A{
+    top: 70%;
+    left: 65%;
+    font-size: 3em;
+}
+.Link1B, .Link2B, .Link3B, .Link4B, .Link5B, .Link6B{
+    position: absolute;
+    color: greenyellow;
+    text-decoration: none; 
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.Link6B{
+    top: 15%;
+    left: 5%;
+}
+.Link5B {
+    color: yellow;
+    top: 30%;
+    left: 5%;
+    font-size: 2em;
+}
+.Link2B {
+    top: 60%;
+    left: 5%;
+}
+.Link3B {
+    top: 45%;
+    left: 5%;
+}
+.Link4B{
+    top: 75%;
+    left: 5%;
+}
+.sticky-button1{
+    display: none;
+}
+.Link1C, .Link2C, .Link3C, .Link4C, .Link5C, .Link6C{
+    position: absolute;
+    color: greenyellow;
+    text-decoration: none; 
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.Link1C {
+    top: 15%;
+    left: 5%;
+}
+.Link2C {
+    top: 30%;
+    left: 5%;
+}
+.Link3C {
+    top: 45%;
+    left: 5%;
+}
+.Link4C{
+    top: 60%;
+    left: 5%;
+    color: yellow;
+    font-size: 2em;
+}
+.Link5C{
+    top: 75%;
+    left: 5%;
+}
+.Link1D, .Link2D, .Link3D, .Link4D, .Link5D, .Link6D{
+    position: absolute;
+    color: greenyellow;
+    text-decoration: none; 
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.Link1D {
+    top: 15%;
+    left: 5%;
+}
+.Link2D {
+    top: 30%;
+    left: 5%;
+}
+.Link3D {
+    top: 45%;
+    left: 5%;
+    color: yellow;
+    font-size: 2em;
+}
+.Link4D{
+    top: 60%;
+    left: 5%;
+}
+.Link5D{
+    top: 75%;
+    left: 5%;
+}
+
+.Resume{
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    width: 350px;
+    height: auto;
+}
+.QualificationsText{
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    width: 50%;
+    height: auto;
+    color: yellow;
+}
+.LinkedInLink{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    color: yellow;
+    text-decoration: none; 
+    font-size: 1em;
+    font-weight: bold;
+}
+.GitHubLink{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    color: yellow;
+    text-decoration: none; 
+    font-size: 1em;
+    font-weight: bold;
+}
+.LeetCodeLink{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    color: yellow;
+    text-decoration: none; 
+    font-size: 1em;
+    font-weight: bold;
+}
+.EmailLink{
+    display: none;
+}
+.EmailLink2{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 450px;
+    height: auto;
+    color: yellow;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.DepartmentLink, .InLineLink {
+    color: inherit;
+}
+.PortfolioText{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 450px;
+    height: auto;
+    color: yellow;
+}
+.Portrait{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    width: 350px;
+    height: auto;
+}
+.ServiceText{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 450px;
+    height: auto;
+    color: yellow;
+}
+.sticky-button, .sticky-button2{
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    font-size: 2em;
+}

@@ -1,0 +1,133 @@
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Qualifications Page HTML</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+    <link id="styleSheet" rel="stylesheet" href="Style1.css">
+    <div class="background-container2">
+        <a href="index.html" class="Link1B">Home</a>
+        <a href="ServicePage.html" class="Link2B">About Me</a>
+        <a href="TechnicalPortfolio.html" class="Link3B">Portfolio</a>
+        <a href="AIPage.html" class="Link4B">AI Page</a>
+        <a href="Resume.pdf" class="Resume"><img src="Resume.jpg" alt="Resume" class="Resume"></a>
+        <div class="QualificationsText"> 
+            I am currently taking classes at Texas A&M through the 
+            <a href="https://engineering.tamu.edu/cse/index.html" class="DepartmentLink">Department of Computer Science and Engineering</a> 
+            to earn a Bachelor's degree in Computer Science and a minor in Cybersecurity. 
+            Some of the classes I will have completed by the end of this semester are: Data Structure 
+            and Algorithms, Computer Organization, Programming Languages, Intro to Computer Systems, Foundations of Software 
+            Engineering, Software Reverse Engineering, and Design Analysis Algorithms.
+        </div>
+        <button text="Switch Style" class="sticky-button1" onclick="switchCSS()">Switch Style</button>
+    </div>
+
+    <div class="background-container1">
+        <a href="index.html" class="Link6B">Home</a>
+        <a href="QualificationsPage.html" class="Link5B">Qualifications</a>
+        <a href="TechnicalPortfolio.html" class="Link3B">Portfolio</a>
+        <a href="ServicePage.html" class="Link2B">About Me</a>
+        <a href="AIPage.html" class="Link4B">AI</a>
+        <a href="Resume.pdf" class="Resume"><img src="Resume.jpg" alt="Resume" class="Resume"></a>
+        <div class="QualificationsText"> 
+            I am currently taking classes at Texas A&M through the 
+            <a href="https://engineering.tamu.edu/cse/index.html" class="DepartmentLink">Department of Computer Science and Engineering</a> 
+            to earn a Bachelor's degree in Computer Science and a minor in Cybersecurity. 
+            Some of the classes I will have completed by the end of this semester are: Data Structure 
+            and Algorithms, Computer Organization, Programming Languages, Intro to Computer Systems, Foundations of Software 
+            Engineering, Software Reverse Engineering, and Design Analysis Algorithms.
+        </div>
+        <button text="Switch Style" class="sticky-button2" onclick="switchCSS()">Switch Style</button>
+    </div>
+
+    <script>
+        window.onload = function() {
+            const savedStyle = localStorage.getItem("selectedStyle");
+            if (savedStyle) {
+                document.getElementById("styleSheet").setAttribute("href", savedStyle);
+            }
+        };
+        function switchCSS() {
+            const styleSheet = document.getElementById("styleSheet");
+            const currentStyle = styleSheet.getAttribute("href");
+            if (currentStyle === "Style1.css") {
+                styleSheet.setAttribute("href", "Style2.css");
+                localStorage.setItem("selectedStyle", "Style2.css");
+            } else {
+                styleSheet.setAttribute("href", "Style1.css");
+                localStorage.setItem("selectedStyle", "Style1.css");
+            }
+        }
+    </script>
+
+</body>
+
+</html> -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Qualifications Page HTML</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link id="styleSheet" rel="stylesheet" href="Style1.css">
+</head>
+
+<body class="Style1">
+    <div class="background-container2">
+        <a href="index.html" class="Link1B">Home</a>
+        <a href="ServicePage.html" class="Link2B">About Me</a>
+        <a href="TechnicalPortfolio.html" class="Link3B">Portfolio</a>
+        <a href="AIPage.html" class="Link4B">AI Page</a>
+        <a href="Resume.pdf" class="Resume"><img src="Resume.jpg" alt="Resume" class="Resume"></a>
+        <div class="QualificationsText"> 
+            I am currently taking classes at Texas A&M through the 
+            <a href="https://engineering.tamu.edu/cse/index.html" class="DepartmentLink">Department of Computer Science and Engineering</a> 
+            to earn a Bachelor's degree in Computer Science and a minor in Cybersecurity. 
+            Some of the classes I will have completed by the end of this semester are: Data Structure 
+            and Algorithms, Computer Organization, Programming Languages, Intro to Computer Systems, Foundations of Software 
+            Engineering, Software Reverse Engineering, and Design Analysis Algorithms.
+        </div>
+        <button text="Switch Style" class="sticky-button1" onclick="switchCSS()">Switch Style</button>
+    </div>
+
+    <div class="background-container1">
+        <a href="index.html" class="Link6B">Home</a>
+        <a href="QualificationsPage.html" class="Link5B">Qualifications</a>
+        <a href="TechnicalPortfolio.html" class="Link3B">Portfolio</a>
+        <a href="ServicePage.html" class="Link2B">About Me</a>
+        <a href="AIPage.html" class="Link4B">AI</a>
+        <a href="Resume.pdf" class="Resume"><img src="Resume.jpg" alt="Resume" class="Resume"></a>
+        <div class="QualificationsText"> 
+            I am currently taking classes at Texas A&M through the 
+            <a href="https://engineering.tamu.edu/cse/index.html" class="DepartmentLink">Department of Computer Science and Engineering</a> 
+            to earn a Bachelor's degree in Computer Science and a minor in Cybersecurity. 
+            Some of the classes I will have completed by the end of this semester are: Data Structure 
+            and Algorithms, Computer Organization, Programming Languages, Intro to Computer Systems, Foundations of Software 
+            Engineering, Software Reverse Engineering, and Design Analysis Algorithms.
+        </div>
+        <button text="Switch Style" class="sticky-button2" onclick="switchCSS()">Switch Style</button>
+    </div>
+
+    <script>
+        window.onload = function() {
+            const savedStyle = localStorage.getItem("selectedStyle");
+            if (savedStyle) {
+                document.getElementById("styleSheet").setAttribute("href", savedStyle);
+            }
+        };
+        function switchCSS() {
+            const styleSheet = document.getElementById("styleSheet");
+            const currentStyle = styleSheet.getAttribute("href");
+            if (currentStyle === "Style1.css") {
+                styleSheet.setAttribute("href", "Style2.css");
+                localStorage.setItem("selectedStyle", "Style2.css");
+            } else {
+                styleSheet.setAttribute("href", "Style1.css");
+                localStorage.setItem("selectedStyle", "Style1.css");
+            }
+        }
+    </script>
+</body>
+</html>

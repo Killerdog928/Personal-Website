@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>index HTML</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+    <link id="styleSheet" rel="stylesheet" href="Style1.css">
+    <div class="background-container1">
+        <a href="QualificationsPage.html" class="Link1A">Qualifications</a>
+        <a href="ServicePage.html" class="Link2A">About Me</a>
+        <a href="TechnicalPortfolio.html" class="Link3A">Portfolio</a>
+        <a href="AIPage.html" class="Link4A">AI</a>
+        <a text="Name" class="NameA">Daniel Manning</a>
+        <a href="https://www.tamu.edu/index.html" class="Link5A">A&M</a>
+        <button text="Switch Style" class="sticky-button" onclick="switchCSS()">Switch Style</button>
+    </div>
+    <div class="style2Home">
+        <a href="index.html" class="Link6A">Home</a>
+    </div>
+    <script>
+        window.onload = function() {
+            const savedStyle = localStorage.getItem("selectedStyle");
+            if (savedStyle) {
+                document.getElementById("styleSheet").setAttribute("href", savedStyle);
+            }
+        };
+        function switchCSS() {
+            const styleSheet = document.getElementById("styleSheet");
+            const currentStyle = styleSheet.getAttribute("href");
+            if (currentStyle === "Style1.css") {
+                styleSheet.setAttribute("href", "Style2.css");
+                localStorage.setItem("selectedStyle", "Style2.css");
+            } else {
+                styleSheet.setAttribute("href", "Style1.css");
+                localStorage.setItem("selectedStyle", "Style1.css");
+            }
+        }
+    </script>
+</body>
+
+</html>

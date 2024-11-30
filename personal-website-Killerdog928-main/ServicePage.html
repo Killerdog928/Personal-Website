@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Service Page HTML</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body class="Style1">
+    <link id="styleSheet" rel="stylesheet" href="Style1.css">
+    <div class="background-container2">
+        <a href="index.html" class="Link1C">Home</a>
+        <a href="QualificationsPage.html" class="Link2C">Qualifications</a>
+        <a href="TechnicalPortfolio.html" class="Link3C">Portfolio</a>
+        <a href="AIPage.html" class="Link4C">AI Page</a>
+        <a class="Picture"><img src="IMG_9235.jpg" alt="Portrait" class="Portrait"></a>
+        <a class="ServiceText"> 
+            <!-- Howdy!! I am Daniel Manning. I grew up in Houston, Texas and I attended Klein High School where I first started programming in my freshman year 
+            and took classes in Computer Science and Cybersecurity every year. While at Klein I was an officer in the Computer Science Club and a member of 
+            the Klein Orchestra. I earned my Eagle Scout Rank in Boy Scouts of America and was very involved in the youth group at my church. I continued 
+            learning more about Computer Science and Cybersecurity at Texas A&M starting in 2022. I enjoy working on large projects and find much satisfaction 
+            in making a nice presentable working product. My goal is to get a summer internship in 2025 and start working in the Computer Science 
+            industry after I graduate in December of 2025. I plan on continuing my education to get a Master's degree while working. I am currently looking 
+            into software engineering as a career after graduation.
+            I volunteer at my church on a regular basis for anything they need help with in addition to helping at events such as Vacation Bible Schools and Teen Rallys. 
+            I enjoy reading books, watching shows and movies, and playing games, along with doing anything with friends. I am a big fan of Star Wars, The Marvel 
+            Cinematic Universe, The Lord of the Rings, and my favorite TV show is Psych. I enjoy board games such as Root and at the time of this writing I am slowly 
+            working my way through the Elden Ring video game. I love all the books by Brandon Sanderson such as the Stormlight Archives and thoroughly enjoy The 
+            Wheel of Time series by Robert Jordan.
+            I have interests in history, AI, cryptocurrencies, and politics and like learning more about them in the general sense in my free time.  -->
+            Practice Branching!!!!!
+        </a>
+        <button text="Switch Style" class="sticky-button1" onclick="switchCSS()">Switch Style</button>
+    </div>
+
+    <div class="background-container1">
+        <a href="index.html" class="Link1C">Home</a>
+        <a href="ServicePage.html" class="Link4C">About Me</a>
+        <a href="QualificationsPage.html" class="Link2C">Qualifications</a>
+        <a href="TechnicalPortfolio.html" class="Link3C">Portfolio</a>
+        <a href="AIPage.html" class="Link5C">AI</a>
+        <a class="Picture"><img src="IMG_9235.jpg" alt="Portrait" class="Portrait"></a>
+        <a class="ServiceText"> 
+            Howdy!! I am Daniel Manning. I grew up in Houston, Texas and I attended Klein High School where I first started programming in my freshman year 
+            and took classes in Computer Science and Cybersecurity every year. While at Klein I was an officer in the Computer Science Club and a member of 
+            the Klein Orchestra. I earned my Eagle Scout Rank in Boy Scouts of America and was very involved in the youth group at my church. I continued 
+            learning more about Computer Science and Cybersecurity at Texas A&M starting in 2022. I enjoy working on large projects and find much satisfaction 
+            in making a nice presentable working product. My goal is to get a summer internship in 2025 and start working in the Computer Science 
+            industry after I graduate in December of 2025. I plan on continuing my education to get a Master's degree while working. I am currently looking 
+            into software engineering as a career after graduation.
+            I volunteer at my church on a regular basis for anything they need help with in addition to helping at events such as Vacation Bible Schools and Teen Rallys. 
+            I enjoy reading books, watching shows and movies, and playing games, along with doing anything with friends. I am a big fan of Star Wars, The Marvel 
+            Cinematic Universe, The Lord of the Rings, and my favorite TV show is Psych. I enjoy board games such as Root and at the time of this writing I am slowly 
+            working my way through the Elden Ring video game. I love all the books by Brandon Sanderson such as the Stormlight Archives and thoroughly enjoy The 
+            Wheel of Time series by Robert Jordan.
+            I have interests in history, AI, cryptocurrencies, and politics and like learning more about them in the general sense in my free time. 
+        </a>
+        <button text="Switch Style" class="sticky-button2" onclick="switchCSS()">Switch Style</button>
+    </div>
+
+    <script>
+        window.onload = function() {
+            const savedStyle = localStorage.getItem("selectedStyle");
+            if (savedStyle) {
+                document.getElementById("styleSheet").setAttribute("href", savedStyle);
+            }
+        };
+        function switchCSS() {
+            const styleSheet = document.getElementById("styleSheet");
+            const currentStyle = styleSheet.getAttribute("href");
+            if (currentStyle === "Style1.css") {
+                styleSheet.setAttribute("href", "Style2.css");
+                localStorage.setItem("selectedStyle", "style2.css");
+            } else {
+                styleSheet.setAttribute("href", "Style1.css");
+                localStorage.setItem("selectedStyle", "Style1.css");
+            }
+        }
+    </script>
+</body>
+
+</html>

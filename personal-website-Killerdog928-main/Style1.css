@@ -1,0 +1,215 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.background-container1 {
+    background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjJlemh6NHB1dDc3ZXBzYTRibWhoeXEyOWwzMnZ5c3h5NW5mMHd6OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ZPR5Cn030MlUg97ZN1/giphy.gif"); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+body.Style1 .background-container1 {
+    display: none;
+}
+
+body.Style1 .background-container2 {
+    display: block;
+}
+
+.Link1A, .Link2A, .Link3A, .Link4A, .NameA, .Link5A{
+    position: absolute;
+    color: white;
+    text-decoration: none; 
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.Link1A {
+    top: 44%;
+    left: 3.5%;
+}
+.Link2A {
+    top: 13.5%;
+    left: 29%;
+}
+.Link3A {
+    top: 48%;
+    left: 41%;
+}
+.Link4A{
+    top: 36%;
+    left: 64%;
+}
+.NameA{
+    top: 70%;
+    left: 28%;
+    font-size: 6em;
+    font-weight: bold;
+}
+.Link5A{
+    top: 78%;
+    left: 80%;
+    font-size: 2em;
+}
+
+.background-container2 {
+    background-color: #500000;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.Link1B, .Link2B, .Link3B, .Link4B{
+    position: absolute;
+    color: white;
+    text-decoration: none; 
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.Link1B {
+    top: 5%;
+    left: 5%;
+}
+.Link3B {
+    top: 5%;
+    left: 20%;
+}
+.Link2B {
+    top: 5%;
+    left: 35%;
+}
+.Link4B{
+    top: 5%;
+    left: 50%;
+}
+.Resume{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 450px;
+    height: auto;
+}
+.QualificationsText{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    width: 450px;
+    height: auto;
+    color: white;
+}
+.LinkedInLink{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    color: white;
+    text-decoration: none; 
+    font-size: 1em;
+    font-weight: bold;
+}
+.GitHubLink{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color: white;
+    text-decoration: none; 
+    font-size: 1em;
+    font-weight: bold;
+}
+.LeetCodeLink{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    color: white;
+    text-decoration: none; 
+    font-size: 1em;
+    font-weight: bold;
+}
+.EmailLink{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: white;
+    text-decoration: none; 
+    font-size: 1em;
+    font-weight: bold;
+    width: 450px;
+}
+.PortfolioText{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 450px;
+    height: auto;
+    color: white;
+}
+.Portrait{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 350px;
+    height: auto;
+}
+.ServiceText{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    width: 450px;
+    height: auto;
+    color: white;
+}
+.Link1C, .Link2C, .Link3C, .Link4C{
+    position: absolute;
+    color: white;
+    text-decoration: none; 
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.Link1C {
+    top: 5%;
+    left: 5%;
+}
+.Link3C {
+    top: 5%;
+    left: 20%;
+}
+.Link2C {
+    top: 5%;
+    left: 35%;
+}
+.Link4C{
+    top: 5%;
+    left: 50%;
+}
+.Link1D, .Link2D, .Link3D, .Link4D{
+    position: absolute;
+    color: white;
+    text-decoration: none; 
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.Link1D {
+    top: 5%;
+    left: 5%;
+}
+.Link3D {
+    top: 5%;
+    left: 20%;
+}
+.Link2D {
+    top: 5%;
+    left: 35%;
+}
+.Link4D{
+    top: 5%;
+    left: 50%;
+}
+.sticky-button1, .sticky-button{
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    font-size: 2em;
+}
+.DepartmentLink, .InLineLink {
+    color: inherit;
+}
